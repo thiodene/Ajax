@@ -4,10 +4,6 @@ window.onload = function () {
 
     //alert("OK") ;
     equipment = $(this).attr("equipment") ;
-    if (equipment == 71)
-      url_json = '1igag.json' ;
-    else
-      url_json = '2igag.json' ;
     //alert(equipment) ;
     $.ajax({    //create an ajax request to display.php
       type: "GET",
